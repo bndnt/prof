@@ -1,0 +1,211 @@
+@media (max-width: 1199px) {
+    .articles__info_date-date {
+        padding-right: 15px;
+    }
+
+    .articles__info_date-tags {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .top__line_menu{
+        display: none;
+    }
+    .topM__line_menu {
+        display: none;
+    }
+
+
+    .mobile__menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__info_img {
+        justify-content: center;
+    }
+
+    .main__info {
+        margin: 66px 0 33px;
+    }
+
+    .work__info {
+        flex-direction: column;
+    }
+
+    .work__info_img {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .blog{
+        margin:24px auto 53px ;
+        max-width: 337px;
+        padding: 0 5px;
+    }
+    .blog__title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 60px;
+        margin-bottom: 18px;
+    }
+
+    .blog__item{
+        border-bottom:1px solid var(--lgrey-color) ;
+        margin-bottom:18px ;
+    }
+    .blog__item-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .blog__title-link {
+        color: var(--main-color);
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 38px;
+        transition: all 0.4s;
+    }
+    .blog__title-link:hover{
+        text-decoration: none;
+        color:var(--link-color);
+    }
+    .blog__item-handlebars{
+        padding-left: 14px;
+    }
+    .blog__item-handlebars  a{
+        color:var( --grey-color);
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 23px;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .blog__item-text{
+        padding-bottom:24px ;
+    }
+
+    .blog__item-date{
+
+        padding-right: 15px;
+        border-right: 1px solid var(--main-color);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .workP{
+        max-width: 344px;
+        margin:24px auto 0;
+        font-family: 'Heebo', sans-serif;
+    }
+    .work__title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 60px;
+        margin-bottom: 13px;
+    }
+    .work__items{
+        /*padding: 25px 0 47px;*/
+
+    }
+    .work__item{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 17px;
+        margin-bottom: 22px;
+        border-bottom:1px solid var(--lgrey-color) ;
+    }
+    .work__item:first-child{
+
+    }
+    .work__item-img{
+        margin-top: 0;
+        margin-right: 5px;
+
+    }
+    .work__item-images{
+        width: 339px;
+        height: 230px;
+        border-radius: 6px;
+    }
+    .work__itm-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+    .work__itm-title-link{
+        color: var(--main-color);
+        transition: all 0.4s;
+    }
+    .work__itm-title-link:hover{
+        color: var(--link-color);
+        text-decoration: none;
+    }
+    .work__itm-data{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 19px;
+    }
+    .work__data-year{
+        background: var(--darck-color);
+        color: #FFFFFF;
+        width: 62px;
+        height: 25px;
+        border-radius: 16px;
+        padding: 0 10px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        /*line-height: 60px;*/
+        text-align: center;
+        margin-right: 26px;
+    }
+    .work__data-about{
+        color:var(--grey-color);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main__info {
+        margin: 33px 0 33px;
+    }
+
+    .work__info_img {
+        width: 100%;
+    }
+
+    .work__info_img img {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .articles__info_date-date {
+        min-width: 120px;
+    }
+    .main__info_head h1 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .main__info_slag {
+        text-align: center;
+    }
+
+    .main__info_link {
+        display: flex;
+        justify-content: center;
+    }
+}
